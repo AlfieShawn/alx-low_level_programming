@@ -1,13 +1,12 @@
-#include<stdio.h>
 #include "main.h"
 /**
 *main - Check for uppercase
 *
 *Return: Always 0 (Success)
 */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= '0' && c <= '9')
 	{
 		Return(1);
 	}
